@@ -1,18 +1,21 @@
+//To initialize git in current folder of ur system
+git init
+
 //To upload ur project to the url mentioned i.e. remote repository
-git remote add origin 'url'
+git remote add origin  https://github.com/mittulmandhan/5-interpolation.git
 
 //To start tracking all the files int the project
 git add .
 
+//save the changes in local git repository with comment(note: -m is used when u want to add some message while committing ur code changes)
+git commit -m "message"
+
 //To push your project to github for the first time
 git push -u origin master
 
-//To initialize git in current folder of ur system
-git init
 
 //Get the status of ur folders/files/codes to check the state of the changes made
 git status
-
 
 
 //reset the changes you've added
@@ -21,8 +24,9 @@ git reset --hard HEAD
 //track the changes You've made in the local copy of the project
 Git add 'fileLocationInRepository'
 
-//save the changes in local git repository with comment(note: -m is used when u want to add some message while committing ur code changes)
+
 git commit -m "message"
+
 
 //push your code to the remote git repository
 git push
