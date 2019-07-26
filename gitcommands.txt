@@ -1,11 +1,19 @@
+//To upload ur project to the url mentioned i.e. remote repository
+git remote add origin 'url'
+
+//To start tracking all the files int the project
+git add .
+
+//To push your project to github for the first time
+git push -u origin master
+
 //To initialize git in current folder of ur system
 git init
 
 //Get the status of ur folders/files/codes to check the state of the changes made
 git status
 
-//To upload ur project to the url mentioned i.e. remote repository
-git remote add origin 'url'
+
 
 //reset the changes you've added
 git reset --hard HEAD
